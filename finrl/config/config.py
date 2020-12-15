@@ -75,7 +75,7 @@ SAC_PARAMS = {'batch_size': 64,
 
 ########################################################
 ############## Stock Ticker Setup starts ##############
-SINGLE_TICKER =['AAPL']
+SINGLE_TICKER =['RELIANCE.NS']
 
 # self defined
 MULTIPLE_STOCK_TICKER = ['RELIANCE.NS','HDFCBANK.NS','INFY.NS']
