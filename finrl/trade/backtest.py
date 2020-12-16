@@ -20,7 +20,7 @@ def BackTestStats(account_value):
     print(perf_stats_all)
     return perf_stats_all
 
-def BaselineStats(baseline_ticker = '^DJI', 
+def BaselineStats(baseline_ticker = '^NSEI', 
                   baseline_start = config.START_TRADE_DATE, 
                   baseline_end = config.END_DATE):
 
