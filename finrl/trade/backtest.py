@@ -52,7 +52,7 @@ def BackTestPlot(account_value,
 
     with pyfolio.plotting.plotting_context(font_scale=1.1):
         pyfolio.create_full_tear_sheet(returns = DRL_strat,
-                                       benchmark_rets=dow_strat, set_context=False, round_trips = True)
+                                       benchmark_rets=dow_strat, set_context=True)
 
 
 def backtest_strat(df):
