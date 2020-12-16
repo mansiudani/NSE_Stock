@@ -37,7 +37,7 @@ def BaselineStats(baseline_ticker = '^DJI',
 def BackTestPlot(account_value, 
                  baseline_start = config.START_TRADE_DATE, 
                  baseline_end = config.END_DATE, 
-                 baseline_ticker = '^DJI'):
+                 baseline_ticker = '^NSEI'):
 
     df = account_value.copy()
     df = get_daily_return(df)
